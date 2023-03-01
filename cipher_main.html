@@ -7,11 +7,80 @@
     <title>CIpher</title>
     <link rel="shortcut icon" href="./img/fav-icon.png" type="image/png" sizes="64x64" />
 
+    <!-- fontawsome cdnjs link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <link rel="stylesheet" href="./cipher_style.css">
 </head>
 <body>
 
-    <h1>Welcome From Cipher Text Generator...</h1>
+    <nav>
+        <img src="./img/CIpher_Logo.png" alt="CIpher_logo" class="cipher-logo" />
+        <i class="fa-solid fa-bars-staggered fa-2x menu-bar"></i>
+    </nav>
+
+    <div class="cipher-function-area">
+        
+        <div class="ceaser-cipher-function">
+            <i class="fa-solid fa-ellipsis-vertical cipher-menu"></i>
+            
+            <h2 class="cipher-header">Ceaser Cipher</h2>
+    
+            <p class="cipher-counter">1</p>
+    
+            <div class="counter-function">
+                <div class="plus">
+                    <i class="fa-solid fa-circle-plus  function-icon"></i>
+                </div>
+    
+                <div class="word-display">
+                    <p class="first-char">a</p>
+                    <p class="arrow-line">
+                        <i class="fa-solid fa-arrow-right arrow"></i>
+                    </p>
+                    <p class="second-char">c</p>
+                </div>
+    
+                <div class="minus">
+                    <i class="fa-solid fa-circle-minus  function-icon"></i>
+                </div>
+            </div>
+    
+            <h3 class="char-number-display">
+                Encoded 
+                <span class="char-number">23</span>
+                Characters
+            </h3>
+        </div>
+
+        <div class="plain-text">
+            <h2 class="plain-text-header">Plain Text</h2>
+            <textarea class="plain-text-container" /></textarea>
+        </div>
+
+        <div class="encrypted-text">
+            <h2 class="encrypted-text-header">Encrypted Text</h2>
+            <textarea class="encrypted-text-container" /></textarea>
+        </div>
+    
+    </div>
+
+    <div class="about-cipher">
+        <h2 class="ceaser-header">Ceaser Cipher</h2>
+        <p class="ceaser-text">
+            The Caesar Cipher is a monoalphabetic rotation cipher
+            used by Gaius Julius Caesar. Caesar rotated each letter of the plaintext 
+            forward three times to encrypt, so that A became D, B became E, etc.,
+        </p>
+    </div>
+
+    <footer>
+        <span class="cipher-disclaimer">
+            CIpher - this is demo website that perform Ceaser cipher and make with testing purpose only by Eggy..
+        </span>
+    </footer>
+
 
 
     
